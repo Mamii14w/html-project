@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+body{
+	
+	background-color: lightgrey;	
+}
+
+    .side_bar .menu .item i{
+    margin-right: 15px;
+}
+.side_bar{
+    margin-top: 140px;
+    background-color: dimgray;
+    backdrop-filter : blur(15px);
+    width: 270px;
+    height: 87vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    overflow: auto;
+}
+.side_bar .menu .item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.side_bar .menu .item .sub_menu{
+    background: grey;
+   display: none;
+}
+.side_bar .menu .item .sub_menu a{
+    padding-left: 80px;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.close-btn{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 0;
+    margin: 15px;
+    cursor: pointer;
+}
+.menu_btn{
+   position: absolute;
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+    top: 0;
+    margin-top: 140px;
+    cursor: pointer;  
+}
+.side_bar.active{
+    left: 0;
+}
+
+
+.side_bar .menu{
+	width: 100%;
+	margin-top: 40px;
+}
+.side_bar .menu .item{
+	position: relative;
+	cursor: pointer;
+}
+
+.side_bar .menu .item a{
+	color: white;
+	
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding: 5px 30px;
+	line-height: 40px;
+}
+
+.side_bar .menu .item a:hover{
+	background: orangered;
+	transition: 0.3s ease;
+}
+
+  </td>
+
+        <td width="100px" height="90px" colspan="2" bgcolor="red">
